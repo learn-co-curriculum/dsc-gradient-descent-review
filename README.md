@@ -11,10 +11,12 @@ Similarly, some more complex mathematical problems such as ordinary least square
 
 
 ## Objectives
+You will be able to:
+
 * Understand what a gradient is
 * Understand what gradient descent means
 
-
+## Gradient descent
 
 Gradient descent is grounded in basic calculus theory. Whenever we have a minimum or maximum, the derivative at that point is equal to zero. This is displayed visually in the picture below; the slope of the red tangent lines is equal to the derivative of the curve at that point. As you can see, the slope of all of these horizontal tangent lines will be zero. 
 
