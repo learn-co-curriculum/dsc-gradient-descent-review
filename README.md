@@ -28,9 +28,7 @@ Building upon this, gradient descent attempts to find the minimum of a function 
 
 <img src="images/new_gradient.png">
 
-While this process guarantees a local minimum, the starting point and step size can effect the outcome. For example, here is an image of two different runs of gradient descent. As you can see, one leads to the global minimum while the other is simply a local minimum.
-
-<img src="images/gradient_local.jpg" width=600>
+While this process guarantees a local minimum, the starting point and step size can effect the outcome. For example, for two different runs of gradient descent, one may lead to the global minimum while the other may lead to a local minimum.
 
 Recall that the general outline for gradient descent is:
 
