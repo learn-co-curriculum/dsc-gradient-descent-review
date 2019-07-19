@@ -20,13 +20,13 @@ You will be able to:
 
 Gradient descent is grounded in basic calculus theory. Whenever you have a minimum or maximum, the derivative at that point is equal to zero. This is displayed visually in the picture below; the slope of the red tangent lines is equal to the derivative of the curve at that point. As you can see, the slope of all of these horizontal tangent lines will be zero. 
 
-<img src="images/dxdy0.png">
+<img src="images/new_dxdy0.png" width="400">
 
 **The gradient is simply another term for the derivative. Typically, this is the term used when we are dealing with multivariate data. The gradient is the rate of change, which is also the slope of the line tangent**
 
 Building upon this, gradient descent attempts to find the minimum of a function by taking successive steps in the steepest direction downhill.
 
-<img src="images/gradient.gif">
+<img src="images/new_gradient.png">
 
 While this process guarantees a local minimum, the starting point and step size can effect the outcome. For example, here is an image of two different runs of gradient descent. As you can see, one leads to the global minimum while the other is simply a local minimum.
 
@@ -46,3 +46,8 @@ Recall that the general outline for gradient descent is:
 ## Summary
 
 In this lesson, you briefly review what gradients; the gradient is the derivative of a function, which is the rate of change at a specific point. You then reviewed the intuition behind gradient descent, as well as some of its pitfalls. Finally, you saw a brief outline of the algorithm itself. In the next lab, you'll practice coding gradient descent and applying that to some simple mathematical functions.
+
+
+```python
+
+```
