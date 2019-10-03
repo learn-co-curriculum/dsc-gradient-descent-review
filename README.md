@@ -7,7 +7,7 @@ Recall that gradient descent is a numerical approximation method for finding opt
 $x+2 = 10$
 subtracting 2 from both sides:
 $x-8$
-Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed form solutions where we can follow a rote procedure and be guaranteed a solution. In other cases, this is not possible and numerical approximation methods are used in order to find a solution. The first instance that you witnessed of this was adding the L1 or L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used  in order to find optimal or near optimal solutions.
+Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed-form solutions where we can follow a rote procedure and be guaranteed a solution. In other cases, this is not possible and numerical approximation methods are used to find a solution. The first instance that you witnessed of this was adding the L1 or L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used in order to find optimal or near-optimal solutions.
 
 
 ## Objectives
@@ -28,7 +28,7 @@ Building upon this, gradient descent attempts to find the minimum of a function 
 
 <img src="images/new_gradient.png">
 
-While this process guarantees a local minimum, the starting point and step size can effect the outcome. For example, for two different runs of gradient descent, one may lead to the global minimum while the other may lead to a local minimum.
+While this process guarantees a local minimum, the starting point and step size can affect the outcome. For example, for two different runs of gradient descent, one may lead to the global minimum while the other may lead to a local minimum.
 
 Recall that the general outline for gradient descent is:
 
@@ -44,8 +44,3 @@ Recall that the general outline for gradient descent is:
 ## Summary
 
 In this lesson, you briefly review what gradients; the gradient is the derivative of a function, which is the rate of change at a specific point. You then reviewed the intuition behind gradient descent, as well as some of its pitfalls. Finally, you saw a brief outline of the algorithm itself. In the next lab, you'll practice coding gradient descent and applying that to some simple mathematical functions.
-
-
-```python
-
-```
