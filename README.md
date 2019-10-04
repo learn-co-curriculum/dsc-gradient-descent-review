@@ -13,8 +13,8 @@ Similarly, some more complex mathematical problems such as ordinary least square
 ## Objectives
 You will be able to:
 
-* Understand what a gradient is
-* Understand what gradient descent means
+- Understand what a gradient is
+- Understand what gradient descent means
 
 ## Gradient descent
 
