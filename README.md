@@ -3,8 +3,7 @@
 
 ## Introduction
 
-Recall that gradient descent is a numerical approximation method for finding optimized solutions to problems with no closed form. That is, some mathematical problems are very easy to solve analytically. A trivial example is basic algebra problems which you undoubtedly saw in grade school:  
-$x + 2 = 10$ subtracting 2 from both sides you get $x = 8$. Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed-form solutions where we can follow a rote procedure and be guaranteed a solution. In other cases, this is not possible and numerical approximation methods are used to find a solution. The first instance that you witnessed of this was adding the L1 and L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used in order to find optimal or near-optimal solutions.
+Recall that gradient descent is a numerical approximation method for finding optimized solutions to problems with no closed form. That is, some mathematical problems are very easy to solve analytically. A trivial example is basic algebra problems which you undoubtedly saw in grade school: <img src="https://render.githubusercontent.com/render/math?math=x %2b 2 = 10"> -- subtracting 2 from both sides you get  <img src="https://render.githubusercontent.com/render/math?math=x = 8"> . Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed-form solutions where we can follow a rote procedure and be guaranteed a solution. In other cases, this is not possible and numerical approximation methods are used to find a solution. The first instance that you witnessed of this was adding the L1 and L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used in order to find optimal or near-optimal solutions.
 
 
 ## Objectives 
@@ -31,7 +30,7 @@ Recall that the general outline for gradient descent is:
 
 1. Define initial parameters:
     1. Pick a starting point
-    2. Pick a step size $\alpha$ (alpha)
+    2. Pick a step size  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> (alpha)
     3. Choose a maximum number of iterations; the algorithm will terminate after this many iterations if a minimum has yet to be found
     4. (optionally) define a precision parameter; similar to the maximum number of iterations, this will terminate the algorithm early. For example, one might define a precision parameter of 0.00001, in which case if the change in the loss function were less then 0.00001, the algorithm would terminate. The idea is that we are very close to the bottom and further iterations would make a negligible difference 
 2. Calculate the gradient at the current point (initially, the starting point)
