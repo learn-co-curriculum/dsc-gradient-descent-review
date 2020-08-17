@@ -3,7 +3,11 @@
 
 ## Introduction
 
-Recall that gradient descent is a numerical approximation method for finding optimized solutions to problems with no closed form. That is, some mathematical problems are very easy to solve analytically. A trivial example is basic algebra problems which you undoubtedly saw in grade school: <img src="https://render.githubusercontent.com/render/math?math=x %2b 2 = 10"> -- subtracting 2 from both sides you get  <img src="https://render.githubusercontent.com/render/math?math=x = 8"> . Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed-form solutions where we can follow a rote procedure and be guaranteed a solution. In other cases, this is not possible and numerical approximation methods are used to find a solution. The first instance that you witnessed of this was adding the L1 and L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used in order to find optimal or near-optimal solutions.
+Recall that gradient descent is a numerical approximation method for finding optimized solutions to problems with no closed form. That is, some mathematical problems are very easy to solve analytically. 
+
+Trivial examples include basic algebra problems which you undoubtedly saw in grade school: <img src="https://render.githubusercontent.com/render/math?math=x %2b 2 = 10"> &#8594; subtracting 2 from both sides you get  <img src="https://render.githubusercontent.com/render/math?math=x = 8"> . Similarly, some more complex mathematical problems such as ordinary least squares, our preliminary regression approach, also have closed-form solutions where we can follow a rote procedure and be guaranteed a solution. 
+
+In other cases, this is not possible and numerical approximation methods are used to find a solution. The first instance that you witnessed of this was adding the L1 and L2 (lasso and ridge, respectively) penalties to OLS regression. In these cases, numerical approximation methods, such as gradient descent, are used in order to find optimal or near-optimal solutions.
 
 
 ## Objectives 
