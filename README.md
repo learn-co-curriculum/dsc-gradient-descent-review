@@ -1,4 +1,3 @@
-
 # Gradient Descent Review
 
 ## Introduction
@@ -17,13 +16,13 @@ You will be able to:
 
 Gradient descent is grounded in basic calculus theory. Whenever you have a minimum or maximum, the derivative at that point is equal to zero. This is displayed visually in the picture below; the slope of the red tangent lines is equal to the derivative of the curve at that point. As you can see, the slope of all of these horizontal tangent lines will be zero. 
 
-<img src="images/new_dxdy0.png" width="400">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-gradient-descent-review/master/images/new_dxdy0.png" alt="higher-order polynomial graph with horizontal bars at all minima and maxima" width="400">
 
 **The gradient is simply another term for the derivative. Typically, this is the term used when we are dealing with multivariate data. The gradient is the rate of change, which is also the slope of the line tangent.**
 
 Building upon this, gradient descent attempts to find the minimum of a function by taking successive steps in the steepest direction downhill.
 
-<img src="images/new_gradient.png">
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-gradient-descent-review/master/images/new_gradient.png" alt="on the left, a 3d plot of a higher-order polynomial. on the right, an image representing finding a specific minimum">
 
 While this process guarantees a local minimum, the starting point and step size can affect the outcome. For example, for two different runs of gradient descent, one may lead to the global minimum while the other may lead to a local minimum.
 
